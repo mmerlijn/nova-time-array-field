@@ -1,0 +1,29 @@
+{
+    "name": "mmerlijn/nova-time-array-field",
+    "description": "A Laravel Nova field. Upgrade for version 4",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mmerlijn\\NovaTimeArrayField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mmerlijn\\NovaTimeArrayField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

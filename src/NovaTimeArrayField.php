@@ -5,7 +5,7 @@ namespace Mmerlijn\NovaTimeArrayField;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class NovaTimeArrayField extends Field
+class TimeArray extends Field
 {
     /**
      * The field's component.

@@ -20,6 +20,7 @@ export default {
         formatString(){
             this.timeArray.add(this.field.value);
             this.field.value = this.timeArray.humanReadable();
+            return this.field.value
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mmerlijn\NovaTimeArrayField;
+namespace mmerlijn\NovaTimeArrayField;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mmerlijn\NovaTimeArrayField;
+namespace mmerlijn\NovaTimeArrayField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

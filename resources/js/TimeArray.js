@@ -33,7 +33,7 @@ TimeArray.prototype.sub = function (array) {
         if (this.valid(array)) {
             let s_ = array[0];
             let e_ = array[1];
-            for (i = 0; i < this.array.length; i++) {
+            for (let i = 0; i < this.array.length; i++) {
                 let s = this.array[i][0];
                 let e = this.array[i][1];
                 //voorliggend
